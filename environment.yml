@@ -1,0 +1,7 @@
+name: tim
+dependencies:
+  - nltk
+  - python=3
+  - numpy
+  - pip:
+    - wikipedia==1.4.0
