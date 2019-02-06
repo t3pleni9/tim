@@ -7,3 +7,6 @@ class Message:
 
     def __str__(self):
         return self.content + self.message_type + self.src
+
+    def apply(self, func):
+        return func(self.content)
